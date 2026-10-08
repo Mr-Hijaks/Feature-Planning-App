@@ -141,7 +141,6 @@
   async function loadExisting() {
     let loaded=0;
     for (const item of DB.items) {
-      if (item._image) continue;
       const imageKey = item.imageFile || item.sourceFilename;
       if (imageKey) {
         const blob = await readMedia(imageKey);
@@ -205,13 +204,21 @@
     }catch(error){status.textContent='Could not import: '+error.message}
     input.value='';
   });
-  fetch('/data/drafts.json')
-    .then(r=>{if(!r.ok)throw Error('draft catalog not found');return r.json()})
-    .then(items=>{
-      items.forEach(x => { if(!DB.items.some(y=>y.id===x.id)) DB.items.push(x) });
+  Promise.all(['/data/catalog.json','/data/drafts.json'].map(async url => {
+    const response=await fetch(url,{cache:'no-cache'});
+    if(!response.ok) throw Error('Catalog missing: '+url);
+    return response.json();
+  }))
+    .then(([catalog,drafts]) => {
+      if (!Array.isArray(catalog.items)||!Array.isArray(drafts)) throw Error('Invalid catalog structure');
+      DB.categories.splice(0,DB.categories.length,...catalog.categories);
+      DB.items.splice(0,DB.items.length,...catalog.items,...drafts);
       render();
       return loadExisting();
     })
-    .catch(()=>loadExisting().catch(e=>{status.textContent='Local artwork storage unavailable: '+e.message;render()}));
+    .catch(error => {
+      status.textContent='Catalog loading issue: '+error.message;
+      return loadExisting().catch(e=>{status.textContent='Local artwork storage unavailable: '+e.message;render()});
+    });
   render();
 })();
