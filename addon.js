@@ -11,6 +11,13 @@
   const status = document.getElementById('import-status');
   const draftsButton = document.getElementById('drafts');
   const dbName = 'haunted-zoo-media-v1';
+  // Format-aware deep links: both /coloring and /stickers open their own view.
+  if (/^\/coloring\/?$/.test(location.pathname) && !params.has('type')) kind='coloring';
+  if (/^\/stickers\/?$/.test(location.pathname) && !params.has('type')) kind='sticker';
+  // Capture old filter state before native handlers replace the URL, enabling Back.
+  for (const id of ['all','stickers','coloring','favorites','drafts']) {
+    document.getElementById(id)?.addEventListener('click', () => history.pushState(null,'',location.href), true);
+  }
 
   const normalize = s => String(s || '').toLowerCase().normalize('NFKD').replace(/[^a-z0-9]/g, '');
   const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -76,6 +83,13 @@
     document.getElementById('count').textContent =
       list.length + ' ' + (draftsVisible ? 'draft record(s) — artwork unverified' : 'sticker / coloring record(s)') +
       ' • ' + DB.items.filter(x => x._image && Boolean(x.draft) === draftsVisible).length + ' image(s) imported locally';
+    if (!list.length && draftsVisible) {
+      const empty=document.getElementById('empty');
+      empty.textContent='No draft records match these filters. Clear your search or select another collection.';
+    }
+    document.querySelectorAll('.collection').forEach(button => {
+      button.addEventListener('click', () => history.pushState(null,'',location.href), true);
+    });
     const visibleCategories = DB.categories;
     document.querySelectorAll('.collection').forEach((button, idx) => {
       const cat = visibleCategories[idx];
