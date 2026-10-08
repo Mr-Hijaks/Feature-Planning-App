@@ -1,0 +1,4 @@
+/stickers /index.html 200
+/coloring /index.html 200
+/collections /index.html 200
+/collections/* /index.html 200
