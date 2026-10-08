@@ -1,0 +1,724 @@
+{
+  "categories": [
+    {
+      "id": "cosmic-eldritch",
+      "name": "Cosmic & Eldritch",
+      "description": "Impossible creatures, voids, tentacles, stars and staring eyes.",
+      "keywords": [
+        "cosmic",
+        "eldritch",
+        "abyss",
+        "void",
+        "portal",
+        "moon",
+        "star",
+        "tentacle",
+        "unblinking",
+        "eyebloom"
+      ]
+    },
+    {
+      "id": "haunted-wildlife",
+      "name": "Haunted Wildlife",
+      "description": "Woodland oddities, eerie birds, charmingly strange mammals.",
+      "keywords": [
+        "fox",
+        "wolf",
+        "rabbit",
+        "hare",
+        "jackalope",
+        "deer",
+        "stag",
+        "mouse",
+        "squirrel",
+        "hound",
+        "bat",
+        "raccoon",
+        "possum",
+        "stoat",
+        "goose",
+        "owl",
+        "lion",
+        "bear",
+        "goat",
+        "hyena",
+        "boar",
+        "hedgehog",
+        "dormouse"
+      ]
+    },
+    {
+      "id": "ghosts-spirits",
+      "name": "Ghosts & Spirits",
+      "description": "Friendly phantoms, wispy animal spirits and spectral visitors.",
+      "keywords": [
+        "ghost",
+        "spectral",
+        "phantom",
+        "spirit",
+        "mourn",
+        "hush",
+        "hollow"
+      ]
+    },
+    {
+      "id": "mimics-curios",
+      "name": "Mimics & Curiosities",
+      "description": "Haunted objects, clockwork inventions, charming mimics and relics.",
+      "keywords": [
+        "mimic",
+        "clockwork",
+        "pocket watch",
+        "compass",
+        "key",
+        "teapot",
+        "lantern",
+        "mailbox",
+        "treasure chest",
+        "armor",
+        "library",
+        "lighthouse"
+      ]
+    },
+    {
+      "id": "deep-sea-oddities",
+      "name": "Deep-Sea Oddities",
+      "description": "Strange marine life, haunted reefs and legendary sea beasts.",
+      "keywords": [
+        "sea",
+        "shark",
+        "reef",
+        "crab",
+        "axolotl",
+        "jellyfish",
+        "octopus",
+        "kraken",
+        "stingray",
+        "coral",
+        "nautilus",
+        "seahorse",
+        "koi",
+        "lagoon",
+        "underwater",
+        "fish"
+      ]
+    },
+    {
+      "id": "enchanted-nature",
+      "name": "Enchanted Nature",
+      "description": "Mushrooms, curious plants and magical habitats.",
+      "keywords": [
+        "flower",
+        "mushroom",
+        "orchid",
+        "petal",
+        "fern",
+        "dandelion",
+        "moss",
+        "garden",
+        "cactus",
+        "flytrap",
+        "orchard",
+        "woodland",
+        "botanical"
+      ]
+    },
+    {
+      "id": "mythical-beasts",
+      "name": "Mythical Beasts",
+      "description": "Dragons, gargoyles, yetis and fantastical animal hybrids.",
+      "keywords": [
+        "dragon",
+        "unicorn",
+        "gargoyle",
+        "seraph",
+        "yeti",
+        "chimera",
+        "griffin",
+        "owlbear",
+        "crystal",
+        "four-headed",
+        "four-horned"
+      ]
+    },
+    {
+      "id": "haunted-places",
+      "name": "Haunted Places",
+      "description": "Eerie castles, whimsical workshops, villages and atmospheric scenes.",
+      "keywords": [
+        "castle",
+        "cottage",
+        "courtyard",
+        "chapel",
+        "cathedral",
+        "forge",
+        "observatory",
+        "greenhouse",
+        "vault",
+        "ruins",
+        "shipwreck",
+        "tower",
+        "house",
+        "temple",
+        "village",
+        "bridge",
+        "post office"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "hz-e2-001",
+      "title": "Abyssal Axolotl",
+      "description": "Smiling axolotl with tentacle gills, three floating eyes, and a tiny swirling void beneath its feet.",
+      "categories": [
+        "cosmic-eldritch",
+        "deep-sea-oddities"
+      ],
+      "tags": [
+        "axolotl",
+        "tentacles",
+        "cute-horror"
+      ],
+      "kind": "sticker",
+      "packId": "eldritch-vol-2",
+      "status": "ready-to-import",
+      "imageFile": "assets/eldritch-vol-2/01-abyssal-axolotl.png",
+      "pdfFile": "assets/eldritch-vol-2/01-abyssal-axolotl.pdf",
+      "imageUrl": null,
+      "pdfUrl": null,
+      "dimensionsInches": [
+        4,
+        2
+      ],
+      "artSource": "AI illustrated contact sheet; individually cropped and formatted; check quality before public release",
+      "draft": false
+    },
+    {
+      "id": "hz-e2-002",
+      "title": "Cathedral Crab",
+      "description": "Crab whose shell resembles a haunted Gothic cathedral with window-shaped eyes.",
+      "categories": [
+        "cosmic-eldritch",
+        "deep-sea-oddities",
+        "haunted-places"
+      ],
+      "tags": [
+        "crab",
+        "architecture",
+        "gothic"
+      ],
+      "kind": "sticker",
+      "packId": "eldritch-vol-2",
+      "status": "ready-to-import",
+      "imageFile": "assets/eldritch-vol-2/02-cathedral-crab.png",
+      "pdfFile": "assets/eldritch-vol-2/02-cathedral-crab.pdf",
+      "imageUrl": null,
+      "pdfUrl": null,
+      "dimensionsInches": [
+        4,
+        2
+      ],
+      "artSource": "AI illustrated contact sheet; individually cropped and formatted; check quality before public release",
+      "draft": false
+    },
+    {
+      "id": "hz-e2-003",
+      "title": "Moon-Eater Moth",
+      "description": "Fluffy six-winged moth clutching a crescent moon; eyes patterned across the wings.",
+      "categories": [
+        "cosmic-eldritch",
+        "haunted-wildlife"
+      ],
+      "tags": [
+        "moth",
+        "moon",
+        "wings"
+      ],
+      "kind": "sticker",
+      "packId": "eldritch-vol-2",
+      "status": "ready-to-import",
+      "imageFile": "assets/eldritch-vol-2/03-moon-eater-moth.png",
+      "pdfFile": "assets/eldritch-vol-2/03-moon-eater-moth.pdf",
+      "imageUrl": null,
+      "pdfUrl": null,
+      "dimensionsInches": [
+        4,
+        2
+      ],
+      "artSource": "AI illustrated contact sheet; individually cropped and formatted; check quality before public release",
+      "draft": false
+    },
+    {
+      "id": "hz-e2-004",
+      "title": "Lantern Lurker",
+      "description": "Strange anglerfish with a ghostly lantern above its mischievous grin.",
+      "categories": [
+        "cosmic-eldritch",
+        "deep-sea-oddities",
+        "ghosts-spirits"
+      ],
+      "tags": [
+        "fish",
+        "lantern",
+        "deep-sea"
+      ],
+      "kind": "sticker",
+      "packId": "eldritch-vol-2",
+      "status": "ready-to-import",
+      "imageFile": "assets/eldritch-vol-2/04-lantern-lurker.png",
+      "pdfFile": "assets/eldritch-vol-2/04-lantern-lurker.pdf",
+      "imageUrl": null,
+      "pdfUrl": null,
+      "dimensionsInches": [
+        4,
+        2
+      ],
+      "artSource": "AI illustrated contact sheet; individually cropped and formatted; check quality before public release",
+      "draft": false
+    },
+    {
+      "id": "hz-e2-005",
+      "title": "The Hollow Hare",
+      "description": "Rabbit with impossibly long ears and a star-filled opening in its chest.",
+      "categories": [
+        "cosmic-eldritch",
+        "haunted-wildlife"
+      ],
+      "tags": [
+        "rabbit",
+        "stars",
+        "void"
+      ],
+      "kind": "sticker",
+      "packId": "eldritch-vol-2",
+      "status": "ready-to-import",
+      "imageFile": "assets/eldritch-vol-2/05-the-hollow-hare.png",
+      "pdfFile": "assets/eldritch-vol-2/05-the-hollow-hare.pdf",
+      "imageUrl": null,
+      "pdfUrl": null,
+      "dimensionsInches": [
+        4,
+        2
+      ],
+      "artSource": "AI illustrated contact sheet; individually cropped and formatted; check quality before public release",
+      "draft": false
+    },
+    {
+      "id": "hz-e2-006",
+      "title": "Kraken Kitten",
+      "description": "Wide-eyed kitten with four tentacle tails and suction cups on its paws.",
+      "categories": [
+        "cosmic-eldritch",
+        "deep-sea-oddities"
+      ],
+      "tags": [
+        "cat",
+        "kraken",
+        "cute-horror"
+      ],
+      "kind": "sticker",
+      "packId": "eldritch-vol-2",
+      "status": "ready-to-import",
+      "imageFile": "assets/eldritch-vol-2/06-kraken-kitten.png",
+      "pdfFile": "assets/eldritch-vol-2/06-kraken-kitten.pdf",
+      "imageUrl": null,
+      "pdfUrl": null,
+      "dimensionsInches": [
+        4,
+        2
+      ],
+      "artSource": "AI illustrated contact sheet; individually cropped and formatted; check quality before public release",
+      "draft": false
+    },
+    {
+      "id": "hz-e2-007",
+      "title": "The Whispering Owl",
+      "description": "Ancient owl with a keyhole-shaped face and feathered eyes.",
+      "categories": [
+        "haunted-wildlife",
+        "cosmic-eldritch"
+      ],
+      "tags": [
+        "owl",
+        "occult",
+        "eyes"
+      ],
+      "kind": "sticker",
+      "packId": "eldritch-vol-2",
+      "status": "ready-to-import",
+      "imageFile": "assets/eldritch-vol-2/07-the-whispering-owl.png",
+      "pdfFile": "assets/eldritch-vol-2/07-the-whispering-owl.pdf",
+      "imageUrl": null,
+      "pdfUrl": null,
+      "dimensionsInches": [
+        4,
+        2
+      ],
+      "artSource": "AI illustrated contact sheet; individually cropped and formatted; check quality before public release",
+      "draft": false
+    },
+    {
+      "id": "hz-e2-008",
+      "title": "Voidbound Toad",
+      "description": "Plump toad crowned with writhing mushrooms and symbols on its back.",
+      "categories": [
+        "cosmic-eldritch",
+        "enchanted-nature"
+      ],
+      "tags": [
+        "toad",
+        "mushroom",
+        "swamp"
+      ],
+      "kind": "sticker",
+      "packId": "eldritch-vol-2",
+      "status": "ready-to-import",
+      "imageFile": "assets/eldritch-vol-2/08-voidbound-toad.png",
+      "pdfFile": "assets/eldritch-vol-2/08-voidbound-toad.pdf",
+      "imageUrl": null,
+      "pdfUrl": null,
+      "dimensionsInches": [
+        4,
+        2
+      ],
+      "artSource": "AI illustrated contact sheet; individually cropped and formatted; check quality before public release",
+      "draft": false
+    },
+    {
+      "id": "hz-e2-009",
+      "title": "The Eyebloom Bat",
+      "description": "Smiling bat with wings of flowers, each with an eye at its center.",
+      "categories": [
+        "haunted-wildlife",
+        "enchanted-nature",
+        "cosmic-eldritch"
+      ],
+      "tags": [
+        "bat",
+        "flowers",
+        "eyes"
+      ],
+      "kind": "sticker",
+      "packId": "eldritch-vol-2",
+      "status": "ready-to-import",
+      "imageFile": "assets/eldritch-vol-2/09-the-eyebloom-bat.png",
+      "pdfFile": "assets/eldritch-vol-2/09-the-eyebloom-bat.pdf",
+      "imageUrl": null,
+      "pdfUrl": null,
+      "dimensionsInches": [
+        4,
+        2
+      ],
+      "artSource": "AI illustrated contact sheet; individually cropped and formatted; check quality before public release",
+      "draft": false
+    },
+    {
+      "id": "hz-e2-010",
+      "title": "Cryptic Caribou",
+      "description": "Spectral deer with antlers twisted into impossible loops.",
+      "categories": [
+        "cosmic-eldritch",
+        "ghosts-spirits",
+        "haunted-wildlife"
+      ],
+      "tags": [
+        "deer",
+        "antlers",
+        "cryptid"
+      ],
+      "kind": "sticker",
+      "packId": "eldritch-vol-2",
+      "status": "ready-to-import",
+      "imageFile": "assets/eldritch-vol-2/10-cryptic-caribou.png",
+      "pdfFile": "assets/eldritch-vol-2/10-cryptic-caribou.pdf",
+      "imageUrl": null,
+      "pdfUrl": null,
+      "dimensionsInches": [
+        4,
+        2
+      ],
+      "artSource": "AI illustrated contact sheet; individually cropped and formatted; check quality before public release",
+      "draft": false
+    },
+    {
+      "id": "hz-e2-011",
+      "title": "The Mourning Mantis",
+      "description": "Orchid mantis with petal-shaped blades and a hidden flower-mouth.",
+      "categories": [
+        "enchanted-nature",
+        "cosmic-eldritch"
+      ],
+      "tags": [
+        "insect",
+        "mantis",
+        "orchid"
+      ],
+      "kind": "sticker",
+      "packId": "eldritch-vol-2",
+      "status": "ready-to-import",
+      "imageFile": "assets/eldritch-vol-2/11-the-mourning-mantis.png",
+      "pdfFile": "assets/eldritch-vol-2/11-the-mourning-mantis.pdf",
+      "imageUrl": null,
+      "pdfUrl": null,
+      "dimensionsInches": [
+        4,
+        2
+      ],
+      "artSource": "AI illustrated contact sheet; individually cropped and formatted; check quality before public release",
+      "draft": false
+    },
+    {
+      "id": "hz-e2-012",
+      "title": "Lighthouse Hermit",
+      "description": "Hermit crab carrying a haunted lighthouse as its shell; a ghost peeks out.",
+      "categories": [
+        "cosmic-eldritch",
+        "deep-sea-oddities",
+        "mimics-curios",
+        "ghosts-spirits"
+      ],
+      "tags": [
+        "crab",
+        "lighthouse",
+        "ghost"
+      ],
+      "kind": "sticker",
+      "packId": "eldritch-vol-2",
+      "status": "ready-to-import",
+      "imageFile": "assets/eldritch-vol-2/12-lighthouse-hermit.png",
+      "pdfFile": "assets/eldritch-vol-2/12-lighthouse-hermit.pdf",
+      "imageUrl": null,
+      "pdfUrl": null,
+      "dimensionsInches": [
+        4,
+        2
+      ],
+      "artSource": "AI illustrated contact sheet; individually cropped and formatted; check quality before public release",
+      "draft": false
+    },
+    {
+      "id": "hz-e2-013",
+      "title": "The Hush Hound",
+      "description": "Four-eyed ghost dog in floating bandages; leash extends into nowhere.",
+      "categories": [
+        "cosmic-eldritch",
+        "ghosts-spirits",
+        "haunted-wildlife"
+      ],
+      "tags": [
+        "hound",
+        "ghost",
+        "eyes"
+      ],
+      "kind": "sticker",
+      "packId": "eldritch-vol-2",
+      "status": "ready-to-import",
+      "imageFile": "assets/eldritch-vol-2/13-the-hush-hound.png",
+      "pdfFile": "assets/eldritch-vol-2/13-the-hush-hound.pdf",
+      "imageUrl": null,
+      "pdfUrl": null,
+      "dimensionsInches": [
+        4,
+        2
+      ],
+      "artSource": "AI illustrated contact sheet; individually cropped and formatted; check quality before public release",
+      "draft": false
+    },
+    {
+      "id": "hz-e2-014",
+      "title": "Starfall Starfish",
+      "description": "Upright five-armed sea creature with dozens of tiny eyes and a central mouth.",
+      "categories": [
+        "cosmic-eldritch",
+        "deep-sea-oddities"
+      ],
+      "tags": [
+        "starfish",
+        "stars",
+        "eyes"
+      ],
+      "kind": "sticker",
+      "packId": "eldritch-vol-2",
+      "status": "ready-to-import",
+      "imageFile": "assets/eldritch-vol-2/14-starfall-starfish.png",
+      "pdfFile": "assets/eldritch-vol-2/14-starfall-starfish.pdf",
+      "imageUrl": null,
+      "pdfUrl": null,
+      "dimensionsInches": [
+        4,
+        2
+      ],
+      "artSource": "AI illustrated contact sheet; individually cropped and formatted; check quality before public release",
+      "draft": false
+    },
+    {
+      "id": "hz-e2-015",
+      "title": "The Clockwork Crawler",
+      "description": "Many-legged beetle with clock-face shell, mismatched eyes and mechanical antennae.",
+      "categories": [
+        "cosmic-eldritch",
+        "mimics-curios",
+        "haunted-wildlife"
+      ],
+      "tags": [
+        "clockwork",
+        "insect",
+        "beetle"
+      ],
+      "kind": "sticker",
+      "packId": "eldritch-vol-2",
+      "status": "ready-to-import",
+      "imageFile": "assets/eldritch-vol-2/15-the-clockwork-crawler.png",
+      "pdfFile": "assets/eldritch-vol-2/15-the-clockwork-crawler.pdf",
+      "imageUrl": null,
+      "pdfUrl": null,
+      "dimensionsInches": [
+        4,
+        2
+      ],
+      "artSource": "AI illustrated contact sheet; individually cropped and formatted; check quality before public release",
+      "draft": false
+    },
+    {
+      "id": "hz-e2-016",
+      "title": "Umbrella Jellyphant",
+      "description": "Tiny elephant with translucent jellyfish ears and trailing tentacles.",
+      "categories": [
+        "deep-sea-oddities",
+        "cosmic-eldritch"
+      ],
+      "tags": [
+        "elephant",
+        "jellyfish",
+        "hybrid"
+      ],
+      "kind": "sticker",
+      "packId": "eldritch-vol-2",
+      "status": "ready-to-import",
+      "imageFile": "assets/eldritch-vol-2/16-umbrella-jellyphant.png",
+      "pdfFile": "assets/eldritch-vol-2/16-umbrella-jellyphant.pdf",
+      "imageUrl": null,
+      "pdfUrl": null,
+      "dimensionsInches": [
+        4,
+        2
+      ],
+      "artSource": "AI illustrated contact sheet; individually cropped and formatted; check quality before public release",
+      "draft": false
+    },
+    {
+      "id": "hz-e2-017",
+      "title": "The Unblinking Snail",
+      "description": "Giant snail with one immense eye in the center of its spiral shell.",
+      "categories": [
+        "cosmic-eldritch",
+        "enchanted-nature"
+      ],
+      "tags": [
+        "snail",
+        "eye",
+        "surreal"
+      ],
+      "kind": "sticker",
+      "packId": "eldritch-vol-2",
+      "status": "ready-to-import",
+      "imageFile": "assets/eldritch-vol-2/17-the-unblinking-snail.png",
+      "pdfFile": "assets/eldritch-vol-2/17-the-unblinking-snail.pdf",
+      "imageUrl": null,
+      "pdfUrl": null,
+      "dimensionsInches": [
+        4,
+        2
+      ],
+      "artSource": "AI illustrated contact sheet; individually cropped and formatted; check quality before public release",
+      "draft": false
+    },
+    {
+      "id": "hz-e2-018",
+      "title": "The Bone Orchard Fox",
+      "description": "Skeletal fox with branch antlers and tiny lantern fruits on its tail.",
+      "categories": [
+        "cosmic-eldritch",
+        "ghosts-spirits",
+        "enchanted-nature",
+        "haunted-wildlife"
+      ],
+      "tags": [
+        "fox",
+        "skeleton",
+        "orchard"
+      ],
+      "kind": "sticker",
+      "packId": "eldritch-vol-2",
+      "status": "ready-to-import",
+      "imageFile": "assets/eldritch-vol-2/18-the-bone-orchard-fox.png",
+      "pdfFile": "assets/eldritch-vol-2/18-the-bone-orchard-fox.pdf",
+      "imageUrl": null,
+      "pdfUrl": null,
+      "dimensionsInches": [
+        4,
+        2
+      ],
+      "artSource": "AI illustrated contact sheet; individually cropped and formatted; check quality before public release",
+      "draft": false
+    },
+    {
+      "id": "hz-e2-019",
+      "title": "The Seraph Salamander",
+      "description": "Six-legged salamander with feathery gills and a halo of floating eyes.",
+      "categories": [
+        "mythical-beasts",
+        "cosmic-eldritch"
+      ],
+      "tags": [
+        "salamander",
+        "halo",
+        "eyes"
+      ],
+      "kind": "sticker",
+      "packId": "eldritch-vol-2",
+      "status": "ready-to-import",
+      "imageFile": "assets/eldritch-vol-2/19-the-seraph-salamander.png",
+      "pdfFile": "assets/eldritch-vol-2/19-the-seraph-salamander.pdf",
+      "imageUrl": null,
+      "pdfUrl": null,
+      "dimensionsInches": [
+        4,
+        2
+      ],
+      "artSource": "AI illustrated contact sheet; individually cropped and formatted; check quality before public release",
+      "draft": false
+    },
+    {
+      "id": "hz-e2-020",
+      "title": "The Pocket Portal Possum",
+      "description": "Mischievous possum whose tail loops through a small portal and returns above its head.",
+      "categories": [
+        "haunted-wildlife",
+        "cosmic-eldritch"
+      ],
+      "tags": [
+        "possum",
+        "portal",
+        "cute-horror"
+      ],
+      "kind": "sticker",
+      "packId": "eldritch-vol-2",
+      "status": "ready-to-import",
+      "imageFile": "assets/eldritch-vol-2/20-the-pocket-portal-possum.png",
+      "pdfFile": "assets/eldritch-vol-2/20-the-pocket-portal-possum.pdf",
+      "imageUrl": null,
+      "pdfUrl": null,
+      "dimensionsInches": [
+        4,
+        2
+      ],
+      "artSource": "AI illustrated contact sheet; individually cropped and formatted; check quality before public release",
+      "draft": false
+    }
+  ],
+  "version": "1.0.0",
+  "blackAndWhiteDefault": true,
+  "blackAndWhiteIsTag": false
+}
